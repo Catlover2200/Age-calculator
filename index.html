@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Age Calculator!</title>
+</head>
+
+<body>
+
+<main>
+
+    <div class="container">
+        <div class="base">
+            <h4>Age Calculator</h4>
+        </div>
+        <div class="block">
+            <p class="title">Year</p>
+            <input type="text"
+                   name="year"
+                   id="year"/>
+        </div>
+
+        <div class="block">
+            <p class="title">Month</p>
+            <input type="text"
+                   name="month"
+                   id="month" />
+        </div>
+
+        <div class="block">
+            <p class="title">Date</p>
+            <input type="text"
+                   name="date"
+                   id="date"/>
+        </div>
+
+        <div class="base">
+            <input type="button"
+                   name="Calculate"
+                   value="Calculate"
+                   onclick="ageCalculator()"
+                   onClick="#age"/>
+        </div>
+
+    </div>
+
+    <div> <h3 id="age" </h3></div>
+
+</main>
+
+<script src="main.js"></script>
+
+</body>
+
+<footer>
+    <h3>  When calculating your answer, the calculator does not know your time of birth. This means "Hours", "Minutes", and "Seconds", is referring to the chosen dates beginning</h3>
+</footer>
+
+</html>
+
+
+https://stackoverflow.com/questions/45508275/how-would-i-create-a-javascript-button-that-shows-text-on-click
+https://dev.to/code_mystery/javascript-age-calculator-calculate-age-from-date-of-birth-o9b

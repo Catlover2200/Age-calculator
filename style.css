@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(000c07e669b906e3ae8ee1787413862d.jpg);
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width:530px;
+    height: 300px;
+    min-height:100px;
+    margin: 100px auto;
+    background-color: rgba(89,53,107,0.9);
+    border-radius: 8px;
+}
+
+.base{
+    width: 100%;
+    margin: 0;
+}
+
+.base h4{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 0px;
+    background: rgb(71,53,107,0.8);
+    font-size: 34px;
+    border-radius: 8px;
+    color: black;
+}
+
+.block{
+    width: 125px;
+    padding: 5px 20px;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.title{
+    font-size: 20px;
+    text-align: left;
+    line-height: 0.5;
+    color:black;
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 140px;
+    margin: auto;
+    min-height: 50px;
+    border: 2px rgb(29,29,29);
+    padding: 12px;
+    background-color: floralwhite;
+    border-radius: 2px;
+    color: rgb(29,29,29);
+    font-size: 17px;
+
+}
+
+input[type=button]{
+    width: 180px;
+    margin-left: 32%;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: rgb(29,29,29);
+    color: floralwhite;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#age{
+    width:530px;
+    height: auto;
+    min-height:60px;
+    margin: 100px auto;
+    text-color: rgb(29,29,29);
+    background-color: floralwhite;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer{
+    background-color: floralwhite;
+    color: darkgray;
+    padding: 1px 2px;
+    text-align: center;
+}
